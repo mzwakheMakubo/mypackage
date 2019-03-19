@@ -22,7 +22,7 @@ def bubble_sort(items):
     if exitCondition == 0: #return the list if it is already sorted
         return items
     else:
-        return bubblesort(items) #calling our function recursively acts as an outer loop with the exitCondition terminating the loop
+        return bubble_sort(items) #calling our function recursively acts as an outer loop with the exitCondition terminating the loop
 
 def merge_sort(items):
 
