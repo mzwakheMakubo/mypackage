@@ -1,3 +1,3 @@
 from . import myModule
-from . import recursion.py
-from . import sorting.py
+from . import recursion
+from . import sorting
